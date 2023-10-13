@@ -59,7 +59,7 @@ public class ExpresionRegular {
         char[] chars = cadena.toCharArray();
         int length = cadena.length();
 
-        if (length < 6) {
+        if (length < 6 || length>7) {
             return false;
         }
 
@@ -89,7 +89,7 @@ public class ExpresionRegular {
         char[] chars = cadena.toCharArray();
         int length = cadena.length();
 
-        if (length < 7) {
+        if (length <7 || length>=8) {
             return false;
         }
 
