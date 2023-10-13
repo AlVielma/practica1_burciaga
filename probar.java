@@ -36,7 +36,7 @@ public class probar {
                 case 2:
                     System.out.println("Créditos: Este programa fue desarrollado por:");
                     System.out.println("Francisco Javier Vielma Padron 22170029");
-                    System.out.println("Jorge Adrian Lira Lopez (tu matricula)");
+                    System.out.println("Jorge Adrian Lira Lopez 21170132");
                     break;
                 case 3:
                     System.out.println("Gracias por comprobrar nuestra expresión regular, cualquier comentario es recibido :)");

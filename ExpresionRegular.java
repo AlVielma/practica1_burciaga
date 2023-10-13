@@ -89,7 +89,7 @@ public class ExpresionRegular {
         char[] chars = cadena.toCharArray();
         int length = cadena.length();
 
-        if (length < 6) {
+        if (length < 7) {
             return false;
         }
 
@@ -108,7 +108,7 @@ public class ExpresionRegular {
                 return false;
             } else if (i == 5 && !"AEIOU".contains(String.valueOf(c))) {
                 return false;
-            } else if (i == length - 1 && !"AEIOU".contains(String.valueOf(c))) {
+            } else if (i == 6 && !"AEIOU".contains(String.valueOf(c))) {
                 return false;
             }
         }
